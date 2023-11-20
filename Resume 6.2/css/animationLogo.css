@@ -1,0 +1,18 @@
+@keyframes div  {
+    
+    0%   {background-color: red;
+    transform: translateY(400px);}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+div{
+    animation-name: div;
+     width: 100px;
+   height: 100px;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
